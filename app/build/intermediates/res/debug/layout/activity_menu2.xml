@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:weightSum="1">
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:text="@string/pickButton"
+        android:id="@+id/button"
+        android:layout_gravity="center_horizontal"
+        android:layout_weight="0.20"
+        android:padding="@dimen/padding"
+        android:onClick="pick"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:text="@string/placeButton"
+        android:id="@+id/button2"
+        android:layout_weight="0.20"
+        android:padding="@dimen/padding" />
+</LinearLayout><!-- From: file:/C:/Users/station/AndroidStudioProjects/BasicScanningTutorial/app/src/main/res/layout/activity_menu2.xml -->
